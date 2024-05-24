@@ -54,7 +54,6 @@ int main()
             else{
                 std::cout<<"It is a draw."<< std::endl;
             }
-            break;
         }
         else if(action == "n" || action == "N"){
             printf("Ok. I will roll then.\n");
@@ -72,6 +71,7 @@ int main()
             else{
                 std::cout<<"It is a draw."<< std::endl;
             }
+            break;
         }
     }
 }
